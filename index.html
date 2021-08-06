@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chit-Chatters</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <ul id="messages"></ul>
+  <form onsubmit="return sendMessage();">
+    <input type="text" id="inp" placeholder="  Say something...">
+    <input type="submit" id="btn" value="Send">
+  </form>
+  </div>
+ <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-database.js"></script>
+ <script src="script.js"></script>
+</body>
+</html>
